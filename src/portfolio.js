@@ -1,5 +1,5 @@
 const header = {
-  homepage: 'https://rohitrout416.github.io',
+  homepage: 'https://rohitrout416.github.io/personal-portfolio/',
   title: 'RR.',
 }
 
@@ -9,7 +9,7 @@ const about = {
   picture: 'profile.jpg',
   description:
     "I'm a Full Stack Developer with a strong backend and cloud focus, experienced in building secure, scalable, production-ready applications. I specialize in designing robust APIs, role-based systems, and modern web platforms using React, Node.js, and cloud-native architectures. I enjoy solving real-world problems where performance, security, and maintainability matter.",
-  resume: '',
+  resume: 'https://github.com/Rohitrout416/personal-portfolio/blob/main/public/resume/Rohit%20Kumar%20Rout_resume.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/rohit-kumar-rout/',
     github: 'https://github.com/Rohitrout416',
