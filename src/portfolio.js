@@ -1,75 +1,67 @@
 const header = {
-  // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rjshkhr.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://rohitrout416.github.io',
+  title: 'RR.',
 }
 
 const about = {
-  // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
-  picture: 'https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png',
-
+  name: 'Rohit Kumar Rout',
+  role: 'Full Stack Developer (Backend & Cloud Focused)',
+  picture: 'profile.jpg',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    "I'm a Full Stack Developer with a strong backend and cloud focus, experienced in building secure, scalable, production-ready applications. I specialize in designing robust APIs, role-based systems, and modern web platforms using React, Node.js, and cloud-native architectures. I enjoy solving real-world problems where performance, security, and maintainability matter.",
+  resume: '',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/rohit-kumar-rout/',
+    github: 'https://github.com/Rohitrout416',
   },
 }
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Athul Colors | Industrial B2B SaaS Platform',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-    image: 'cleanfolio.png',
+      'A full-stack B2B order management platform built for an industrial pigments business, focusing on security, scalability, and role-based workflows. Designed a scalable RBAC-based order management system with multi-factor authentication.',
+    stack: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Vercel'],
+    sourceCode: 'https://github.com/Rohitrout416/Athul-Colours-Frontend',
+    livePreview: 'https://athul-colors-frontend.vercel.app/',
   },
   {
-    name: 'Project 2',
+    name: 'TinyLink | High-Performance URL Shortener',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-    image: 'https://github.githubassets.com/assets/GitHub-Logo-ee398b662d42.png',
+      'A modern, type-safe URL shortening platform optimized for SEO, performance, and real-time analytics. Built using Next.js App Router and Server Actions with a scalable database schema.',
+    stack: ['Next.js 15', 'TypeScript', 'Prisma', 'PostgreSQL', 'Tailwind CSS'],
+    sourceCode: 'https://github.com/Rohitrout416/tiny_link',
+    livePreview: 'https://tinylink-omega-two.vercel.app/',
   },
   {
-    name: 'Project 3',
+    name: 'FocusGuard | Privacy-Focused Android App',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A privacy-focused Android application designed to reduce notification-based distractions and enable deep work sessions.',
+    stack: ['Kotlin', 'Android', 'Jetpack Compose'],
+    sourceCode: 'https://github.com/Rohitrout416/FocusGuard',
   },
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
   'JavaScript',
   'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
-  'Git',
+  'React.js',
+  'Next.js',
+  'Node.js',
+  'Express.js',
+  'RESTful API Design',
+  'MongoDB',
+  'PostgreSQL',
+  'Prisma',
+  'Authentication & Authorization',
+  'Cloud & Deployment',
+  'Git & GitHub',
+  'System Design Fundamentals',
   'CI/CD',
-  'Jest',
-  'Enzyme',
 ]
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'rohitrout543@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
